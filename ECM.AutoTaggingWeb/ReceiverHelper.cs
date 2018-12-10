@@ -27,7 +27,7 @@ namespace ECM.AutoTaggingWeb
             _rer.EventType = type;
             _rer.ReceiverName = receiverName;
             _rer.ReceiverClass = "ECM.AutoTaggingWeb.Services.AutoTaggingService";
-            _rer.ReceiverUrl = "https://amsecm.azurewebsites.net/Services/AutoTaggingService.svc";
+            _rer.ReceiverUrl = "https://ecmat.azurewebsites.net/Services/AutoTaggingService.svc";
             _rer.Synchronization = EventReceiverSynchronization.Synchronous;
             return _rer;
         }
